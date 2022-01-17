@@ -42,7 +42,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Here](https://your-solution-url.com)
-- Live Site URL: [Go Live](https://your-live-site-url.com)
+- Live Site URL: [Go Live](https://sherif-jr.github.io/order-summary-component-challenge--solution/)
 
 ### Built with
 
