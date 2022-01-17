@@ -22,12 +22,27 @@ Users should be able to:
 
 ### Screenshot
 
--Desktop:
-  - ![Desktop 1366px](./Screenshots/1366pxDesktop.png)
+#### Desktop:
+  - Desktop 1366px:
+  <img src="./Screenshots/1366pxDesktop.png" alt="Desktop 1366px" width="450px">
+  
+  - Desktop 1440px:
+  <img src="./Screenshots/1440pxDesktop.png" alt="Desktop 1366px" width="450px">
+  
+  <hr>
+  
+ #### Mobile
+ - (Live Server):
+ <img src="./Screenshots/Mobile.jpg" alt="Desktop 1366px" height="450px">
+  
+ - Iphone13 (Simulation):
+ <img src="./Screenshots/Mobile-2(IPhone13-simulation).png" alt="Mobile 'IPhone13" height="450px">
+ 
+<!--   - ![Desktop 1366px](./Screenshots/1366pxDesktop.png)
   - ![Desktop 1440px](./Screenshots/1440pxDesktop.png)
 - Mobile:
   - ![Mobile](./Screenshots/Mobile.jpg)
-  - ![Mobile 'IPhone13'](<./Screenshots/Mobile-2(IPhone13-simulation).png>)
+  - ![Mobile 'IPhone13'](<./Screenshots/Mobile-2(IPhone13-simulation).png>) -->
 
 ### Links
 
@@ -42,4 +57,4 @@ Users should be able to:
 ## Author
 
 - Frontend Mentor - [@Sherif-jr](https://www.frontendmentor.io/profile/Sherif-jr)
-- Twitter - [@Sherif*Jr*](https://www.twitter.com/Sherif_Jr_)
+- Twitter - [@Sherif_Jr_](https://www.twitter.com/Sherif_Jr_)
