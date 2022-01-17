@@ -23,11 +23,11 @@ Users should be able to:
 ### Screenshot
 
 -Desktop:
-  - ![Desktop 1366px](Screenshots\1366pxDesktop.png)
-  - ![Desktop 1440px](Screenshots\1440pxDesktop.png)
+  - ![Desktop 1366px](./Screenshots\1366pxDesktop.png)
+  - ![Desktop 1440px](./Screenshots\1440pxDesktop.png)
 - Mobile:
-  - ![Mobile](Screenshots\Mobile.jpg)
-  - ![Mobile 'IPhone13'](<Screenshots\Mobile-2(IPhone13-simulation).png>)
+  - ![Mobile](./Screenshots\Mobile.jpg)
+  - ![Mobile 'IPhone13'](<./Screenshots\Mobile-2(IPhone13-simulation).png>)
 
 ### Links
 
