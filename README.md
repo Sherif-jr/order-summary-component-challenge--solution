@@ -38,16 +38,11 @@ Users should be able to:
  - Iphone13 (Simulation):
  <img src="./Screenshots/Mobile-2(IPhone13-simulation).png" alt="Mobile 'IPhone13" height="450px">
  
-<!--   - ![Desktop 1366px](./Screenshots/1366pxDesktop.png)
-  - ![Desktop 1440px](./Screenshots/1440pxDesktop.png)
-- Mobile:
-  - ![Mobile](./Screenshots/Mobile.jpg)
-  - ![Mobile 'IPhone13'](<./Screenshots/Mobile-2(IPhone13-simulation).png>) -->
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Here](https://your-solution-url.com)
+- Live Site URL: [Go Live](https://your-live-site-url.com)
 
 ### Built with
 
