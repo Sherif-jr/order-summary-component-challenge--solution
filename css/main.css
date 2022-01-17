@@ -1,0 +1,225 @@
+:root {
+  --Pale-blue: hsl(225, 100%, 94%);
+  --Bright-blue: hsl(245, 75%, 52%);
+
+  /* ### Neutral */
+
+  --Very-pale-blue: hsl(225, 100%, 98%);
+  --Desaturated-blue: hsl(224, 23%, 55%);
+  --Dark-blue: hsl(223, 47%, 23%);
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Red Hat Display", sans-serif;
+  background-color: var(--Pale-blue);
+}
+
+.background {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  background: url(/images/pattern-background-desktop.svg);
+  background-repeat: repeat-x;
+}
+
+.card {
+  width: 450px;
+  height: 685px;
+  border-radius: 15px;
+  background-color: white;
+  box-shadow: 0px 10px 34px 0px #8080805c;
+}
+.image {
+  background-image: url(/images/illustration-hero.svg);
+  /* background-size: contain; */
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 220px;
+  border-radius: 15px 15px 0 0;
+  margin-bottom: 45px;
+}
+.container {
+  display: flex;
+  align-items: center;
+  padding: 0 42px;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+.container .summary {
+  /* display: flex;
+    align-items: center; */
+  text-align: center;
+  margin-bottom: 20px;
+}
+.container .summary h3 {
+  color: var(--Dark-blue);
+  font-weight: 900;
+  font-size: 1.7em;
+  margin-top: 0;
+  margin-bottom: 17px;
+}
+.container .summary p {
+  font-size: 16px;
+  font-weight: 300;
+  text-align: center;
+  font-weight: 500;
+  color: var(--Desaturated-blue);
+  line-height: 1.6;
+  margin: 0;
+}
+.container .order-details {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--Very-pale-blue);
+  width: 100%;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+.container .order-details .plan {
+  height: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+}
+.container .order-details .plan img {
+  width: 50px;
+  margin-right: 20px;
+}
+.container .order-details .plan h4 {
+  color: var(--Dark-blue);
+  margin: 0 0 7px 0;
+  font-weight: 700;
+}
+.container .order-details .plan p {
+  margin: 0;
+  color: var(--Desaturated-blue);
+}
+.container .order-details a {
+  font-size: 0.9em;
+  color: var(--Bright-blue);
+  font-weight: 700;
+}
+.container .order-details a:hover {
+  color: hsl(245, 83%, 68%);
+}
+
+.proceed {
+  width: 100%;
+  background-color: var(--Bright-blue);
+  color: white;
+  font-weight: 900;
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 30px;
+  cursor: pointer;
+  transition: all 0.3s;
+  box-shadow: 0px 13px 18px 1px #80808075;
+}
+.proceed:hover {
+  background-color: hsl(245, 83%, 68%);
+}
+.cancel {
+  text-decoration: none;
+  color: var(--Desaturated-blue);
+  font-weight: 700;
+  transition: all 0.3s;
+}
+.cancel:hover {
+  color: var(--Dark-blue);
+}
+
+/* MediaQueries */
+/* Small Screens (smaller than 1440)*/
+@media (max-width: 767px) {
+  .card {
+    width: 325px;
+    height: 568px;
+  }
+  .image {
+    height: 158px;
+    margin-bottom: 30px;
+  }
+  .container {
+    padding: 0 25px;
+  }
+  .container .summary h3 {
+    font-size: 1.5em;
+    margin-bottom: 25px;
+  }
+  .container .summary p {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .container .order-details {
+    font-size: 0.9em;
+    height: 80px;
+    margin-bottom: 25px;
+  }
+  .container .order-details .plan h4 {
+    margin: 0 0 8px 0;
+  }
+  .proceed {
+    margin-bottom: 25px;
+  }
+}
+
+/* Medium Screens */
+@media (min-width: 767px) and (max-width: 1439px) {
+  .card {
+    width: 385px;
+    height: 586px;
+  }
+  .image {
+    height: 186px;
+    margin-bottom: 30px;
+  }
+  .container {
+    padding: 0 25px;
+  }
+  .container .summary h3 {
+    font-size: 1.5em;
+    margin-bottom: 17px;
+  }
+  .container .summary p {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .container .order-details {
+    font-size: 0.9em;
+    height: 80px;
+    margin-bottom: 20px;
+  }
+  .container .order-details .plan h4 {
+    margin: 0 0 5px 0;
+  }
+  .proceed {
+    margin-bottom: 20px;
+  }
+}
+
+/* attribution */
+
+.attribution {
+  position: fixed;
+  right: 15px;
+  bottom: 5px;
+}
+@media (max-width: 767px) {
+  .attribution {
+    right: calc(50% - 145.7px);
+  }
+}
